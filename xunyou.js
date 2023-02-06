@@ -7,13 +7,13 @@
 请勿转载与贩卖！️️️
 群1077223830
 *******************************
-[rewrite_local]^http[s]?:\/\/api.xunyou.mobihttps:\/\/api.xunyou.mobi\/api\/v2\/android\/users\/689d937b-0aca-4d99-928c-b3763fd8aa7b\/tasks.+$ url script-response-body https://raw.githubusercontent.com/LJ0530/-/main/xunyou.js
+[rewrite_local]^http[s]?:\/\/api.xunyou.mobi\/api\/v2\/android\/users\/689d937b-0aca-4d99-928c-b3763fd8aa7b\/tasks.+$ url script-response-body https://raw.githubusercontent.com/LJ0530/-/main/xunyou.js
 hostname = *.xunyou。*
 *******************************
 涌起
 
 [脚本]
-^http[s]?:\/\/api.xunyou.mobihttps:\/\/api.xunyou.mobi\/api\/v2\/android\/users\/689d937b-0aca-4d99-928c-b3763fd8aa7b\/tasks.+$ require-body=1,max-size=0,script-path=xunyou.js
+^http[s]?:\/\/api.xunyou.mobi\/api\/v2\/android\/users\/689d937b-0aca-4d99-928c-b3763fd8aa7b\/tasks.+$ require-body=1,max-size=0,script-path=xunyou.js
 
 [MITM]
 hostname = *.xunyou。*
